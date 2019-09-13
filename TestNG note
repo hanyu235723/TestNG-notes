@@ -1,0 +1,22 @@
+TestNG is for java, 集成管理测试用例的工具
+
+test  annnotation @test 标识测试method 
+
+通过生成 XML 文件来管理用例的执行
+
+问题：如果有多个test class，如何指定运行的class？ （通过XML中的test class tag 来指定）
+问题：如果一个test class里有多个test method，如何指定运行的test method（用methods tag指定）
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+  <test name="Nopackage" >
+    <classes>
+       <class name="NoPackageTest" >
+         <methods>
+              <exclude name='xxxxx' />
+        </methods>
+       </class>
+    </classes>
+  </test>
+
+</suite>
