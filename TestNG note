@@ -1,5 +1,18 @@
 TestNG is for java, 集成管理测试用例的工具
 
+TestNG tutorial
+1. importance of testNG
+2. installation and configuration in eclipse
+3. testXML file importance
+4.controlling test execution from xml files
+5. including and excluding mechnisim
+6.understaning testNG annotations
+7.Groups
+8.data provider annotation
+9.
+
+
+
 test  annnotation @test 标识测试method 
 
 通过生成 XML 文件来管理用例的执行
